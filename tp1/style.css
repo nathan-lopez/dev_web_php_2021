@@ -1,0 +1,60 @@
+body {
+    background: no-repeat center top/cover url("bg.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20%;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.header_top {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    position: fixed;
+    top: 5px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: rgba(12, 11, 11, .8);
+    border-radius: 10px;
+}
+
+div p {
+    text-align: center;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.php {
+    color: rgb(80, 4, 4);
+    font-size: 1.2em;
+    transition: 1000ms;
+}
+
+.php:hover {
+    font-size: 1.4em;
+    color: rgb(12, 7, 7);
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.247);
+    position: fixed;
+    bottom: 2px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
