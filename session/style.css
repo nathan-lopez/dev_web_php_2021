@@ -1,0 +1,27 @@
+body{
+    background: rgba(0, 0, 0, 0.295) ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 500px ;
+    display: flex;
+}
+
+form, main{
+    margin-top: 20%;
+    background: white ;
+    color: black;
+    padding:30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+form div input, form div select{
+    margin-bottom: 30px;
+}
