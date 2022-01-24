@@ -7,7 +7,7 @@ body{
     display: flex;
 }
 
-form{
+form, main{
     margin-top: 20%;
     background: white ;
     color: black;

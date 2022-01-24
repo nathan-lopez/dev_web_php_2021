@@ -8,6 +8,7 @@
     <title>formulaire</title>
 
 </head>
+
 <body>
     <form method="post" class="form" action="controller/controller.php">
         <div>
@@ -18,7 +19,7 @@
                 <option value="w">I am a woman</option>
 
             </select></br>
-            your day of birth: <input type="number" name="birth"> </br>
+            your year birthing: <input type="number" name="birth"> </br>
             email: <input type="email" name="email"> </br>
             <input type="submit" value="Submit"> </br>
 
